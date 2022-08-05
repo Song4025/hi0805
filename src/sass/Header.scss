@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+.header{
+  width:100%;
+  height:80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  .left-Menu{
+    display: flex;
+    
+    span{
+      margin-left: 20px;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing:0;
+      color: #222;
+    }
+  }
+  .right-Menu{
+    display: flex;
+    align-items: center;
+    p {
+        display: inline;
+        margin-left: 20px;
+    }
+    span{
+        font-size: 14px;
+        font-weight: 500;
+        color: #777;
+        line-height: 1.43;
+    }
+    button{
+        margin: 0 20px 0 8px;
+        padding: 6px 12px 6px 13px;
+        width: 50px;
+        height: 20px;
+        border-radius: 4px;
+        background-color: #f9f9f9;
+        border: solid 1px #ddd;
+        letter-spacing: normal;
+        font-size: 14px;
+        font-weight: 500;
+        color: #666;
+        line-height: 1.43;
+        cursor: pointer;
+    }
+    button::after{
+      content: "";
+      width: 1px;
+      height: 19px;
+      margin: 6px 19px 7px 18px;
+      border: solid 1px #ddd;
+    }
+    .noti-icon {
+      width: 18px;
+      height: 18px;
+      margin: 0 2px 0 0;
+      border: 1px solid #000;
+    }
+    span a{
+      font-size: 14px;
+      font-weight: 500;
+      margin: 6px 18px 6px 8px;
+      line-height: 1.43;
+      color: #222;
+    }
+    span a::after {
+      content: "";
+      width: 1px;
+      height: 19px;
+      margin: 6px 19px 7px 18px;
+      border: solid 1px #ddd;
+    }
+    .user-name{
+      margin: 6px 8px 6px 6px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #222;
+      line-height: 20px;
+      letter-spacing: 0;
+      pointer-events: none;
+    }
+    .btn-logout{
+      width: 64px;
+      height: 32px;
+      margin: 0 0 0 8px;
+      padding: 6px 6px 6px 8px;
+      border-radius: 4px;
+      border: solid 1px #ddd;
+      background-color: #f9f9f9;
+      font-size: 14px;
+      font-weight: 500;
+      color: #666;
+      line-height: 20px;
+      letter-spacing: 0;
+    }
+  }
+}
+.gnb{
+  width: 100%;
+  padding: 0 357px 0 358px;
+  background-color: #fc0;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .rectangle-menu{
+    border: 1px solid #000;    
+    width: 200px;
+    height: 60px;
+    padding: 16px 34px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  .menu-icon{
+    width: 19px;
+    height: 16px;
+    margin: 0 1px 0 0;
+    padding: 4px 5px 4px 4px;
+    border: solid 1.4px #222;
+  }
+  .menu{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #222;
+    }
+  }
+}
